@@ -1,0 +1,69 @@
+<!doctype html>
+
+<html>
+
+  <head>
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+
+    <!--INCLUDE SQS SCRIPTS, META TAGS AND USER CONTENT FROM THE CODE INJECTION TAB-->
+
+    {squarespace-headers}
+
+    <squarespace:script src="site.js" combo="true" />
+  
+  </head>
+
+  <body id="{squarespace.page-id}" class="{squarespace.page-classes}">
+    
+    <!--HEADER-->
+
+    <header id="header">
+
+      <!--SITE TITLE OR LOGO-->
+
+      {.section website}
+
+        <h1 data-content-field="site-title">
+          <a href="/">
+            {.section logoImageUrl}
+             <img src="{logoImageUrl}?format=original" alt="{siteTitle}" />
+            {.or}
+              {siteTitle}
+            {.end}
+          </a>
+        </h1>
+        
+        <!--SITE TAGLINE-->
+
+        {.section siteTagLine}<p>{@}</p>{.end}
+
+      {.end}
+
+      <!--MAIN NAVIGATION-->
+
+      <squarespace:navigation navigationId="mainNav" template="navigation" />
+
+    </header>
+
+    <!--CONTENT INJECTION POINT-->
+
+    <section id="content">    
+     {squarespace.main-content}
+    </section>
+
+    <!--FOOTER WITH OPEN BLOCK FIELD-->
+
+    <footer id="footer">
+      <squarespace:block-field id="footerBlocks" columns="12" />
+    </footer>
+
+    <!--INJECTION POINT FOR TRACKING SCRIPTS AND USER CONTENT FROM THE CODE INJECTION TAB-->
+
+    {squarespace-footers}
+    
+  </body>
+
+</html> 

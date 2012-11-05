@@ -577,10 +577,10 @@ div.orbit, div.orbit-wrapper { width: 100% !important; }
 /* Correct timer in IE */
 .lt-ie9 .timer { display: none !important; }
 
-.lt-ie9 div.caption { background: black; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000,endColorstr=#99000000); zoom: 1; }
+.lt-ie9 div.caption { background: black; filter: e(%("progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000,endColorstr=#99000000)")); zoom: 1; }
 
 @media only screen and (max-width: 767px) { div.orbit.orbit-stack-on-small img.fluid-placeholder { visibility: visible; }
-    div.orbit.orbit-stack-on-small .orbit-slide { position: static; margin-bottom: 10px; } }
+  div.orbit.orbit-stack-on-small .orbit-slide { position: static; margin-bottom: 10px; } }
 /* CSS for jQuery Reveal Plugin Maintained for Foundation. foundation.zurb.com Free to use under the MIT license. http://www.opensource.org/licenses/mit-license.php */
 /* Reveal Modals ---------------------- */
 .reveal-modal-bg { position: fixed; height: 100%; width: 100%; background: #000; background: rgba(0, 0, 0, 0.45); z-index: 40; display: none; top: 0; left: 0; }

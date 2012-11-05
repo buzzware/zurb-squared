@@ -7,17 +7,17 @@
     <li class="name">
       <h1>
         <a href="#">
-          Top Bar Title
+          Buzzware
         </a>
       </h1>
     </li>
     <li class="toggle-topbar"><a href="#"></a></li>
   </ul>
 
-  <ul>
+  <ul class="right">
     {.repeated section items}
 
-        <li class="{.section active} active-link{.end}{.if folderActive} active-folder{.end}">
+        <li class="has-dropdown {.section active} active-link{.end}{.if folderActive} active-folder{.end}">
 
           {.folder?}
 
@@ -25,14 +25,14 @@
 
             <div class="folder-parent">
               <a>{collection.navigationTitle}</a>
-              <ul class="folder-child">
+              <ul class="folder-child dropdown">
 
                 {.repeated section items}
 
                   <!--COLLECTION IN A FOLDER-->
 
                   {.collection?}
-                    <li class="{.section active} active-link{.end}">
+                    <li class="{.section active} active active-link{.end}">
                       <a href="{collection.fullUrl}">
                         {collection.navigationTitle}
                       </a>

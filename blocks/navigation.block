@@ -17,22 +17,21 @@
   <ul class="right">
     {.repeated section items}
 
-        <li class="{.folder?}has-dropdown{.end}{.section active} active active-link{.end}{.if folderActive} active active-folder{.end}">
+        <li class="{.folder?}has-dropdown{.end}{.section active} active {.end}{.if folderActive} active {.end}">
 
           {.folder?}
 
             <!--FOLDER-->
 
-            <div class="folder-parent">
               <a>{collection.navigationTitle}</a>
-              <ul class="folder-child dropdown">
+              <ul class="dropdown">
 
                 {.repeated section items}
 
                   <!--COLLECTION IN A FOLDER-->
 
                   {.collection?}
-                    <li class="{.section active} active active-link{.end}">
+                    <li class="{.section active} active {.end}">
                       <a href="{collection.fullUrl}">
                         {collection.navigationTitle}
                       </a>
@@ -51,7 +50,6 @@
                 {.end}
 
               </ul>
-            </div>
 
           {.or}
 

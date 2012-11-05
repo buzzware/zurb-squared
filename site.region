@@ -39,7 +39,7 @@
     
     <!--HEADER-->
 
-    <header id="header">
+    <header id="header" class="row">
 
 	    <squarespace:navigation navigationId="mainNav" template="navigation" />
 
@@ -70,13 +70,13 @@
 
     <!--CONTENT INJECTION POINT-->
 
-    <section id="content">    
+    <section id="content" class="row">
      {squarespace.main-content}
     </section>
 
     <!--FOOTER WITH OPEN BLOCK FIELD-->
 
-    <footer id="footer">
+    <footer id="footer" class="row">
       <squarespace:block-field id="footerBlocks" columns="12" />
     </footer>
 

@@ -7,7 +7,7 @@
     <li class="name">
       <h1>
         <a href="#">
-          Buzzware
+          Buzzware Solutions
         </a>
       </h1>
     </li>
@@ -17,7 +17,7 @@
   <ul class="right">
     {.repeated section items}
 
-        <li class="has-dropdown {.section active} active-link{.end}{.if folderActive} active-folder{.end}">
+        <li class="{.section active} active active-link{.end}{.if folderActive} has-dropdown active active-folder{.end}">
 
           {.folder?}
 

@@ -47,6 +47,7 @@
 
       {.section website}
 
+	      <!--
         <h1 data-content-field="site-title">
           <a href="/">
             {.section logoImageUrl}
@@ -56,6 +57,7 @@
             {.end}
           </a>
         </h1>
+        -->
         
         <!--SITE TAGLINE-->
 

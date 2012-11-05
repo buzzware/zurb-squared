@@ -14,7 +14,6 @@
   <!--
   <link rel="stylesheet" href="styles/foundation.css">
   -->
-	<!-- Replaced SquareSpace reset.css content with foundation.css so don't include here -->
   <!-- Included CSS Files (Compressed) -->
   <!-- <link rel="stylesheet" href="/assets/foundation.min.css"> -->
   <!-- <link rel="stylesheet" href="/styles/app.css"> -->

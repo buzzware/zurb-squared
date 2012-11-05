@@ -17,7 +17,7 @@
   <ul class="right">
     {.repeated section items}
 
-        <li class="{.section active} active active-link{.end}{.if folderActive} has-dropdown active active-folder{.end}">
+        <li class="{.folder?}has-dropdown{.end}{.section active} active active-link{.end}{.if folderActive} active active-folder{.end}">
 
           {.folder?}
 

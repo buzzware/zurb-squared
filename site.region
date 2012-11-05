@@ -41,7 +41,9 @@
 
     <header id="header">
 
-      <!--SITE TITLE OR LOGO-->
+	    <squarespace:navigation navigationId="mainNav" template="navigation" />
+
+	    <!--SITE TITLE OR LOGO-->
 
       {.section website}
 
@@ -63,7 +65,6 @@
 
       <!--MAIN NAVIGATION-->
 
-      <squarespace:navigation navigationId="mainNav" template="navigation" />
 
     </header>
 

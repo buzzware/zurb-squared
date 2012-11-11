@@ -78,7 +78,7 @@
     <!--FOOTER WITH OPEN BLOCK FIELD-->
 
     <footer id="footer" class="row">
-      <squarespace:block-field id="footerBlocks" columns="12" />
+      <!--<squarespace:block-field id="footerBlocks" columns="12" />-->
     </footer>
 
     <!--INJECTION POINT FOR TRACKING SCRIPTS AND USER CONTENT FROM THE CODE INJECTION TAB-->

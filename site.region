@@ -76,17 +76,13 @@
     </section>
 
     <!--FOOTER WITH OPEN BLOCK FIELD-->
-		<div class="before footer" ></div>
     <footer id="footer" class="row">
       <!--<squarespace:block-field id="footerBlocks" columns="12" />-->
     </footer>
-    <div class="after footer" ></div>
 
     <!--INJECTION POINT FOR TRACKING SCRIPTS AND USER CONTENT FROM THE CODE INJECTION TAB-->
-    <div class="before ss-footer" ></div>
 
     {squarespace-footers}
-    <div class="after ss-footer" ></div>
 
     <!-- Included JS Files (Uncompressed) -->
   <!--

@@ -78,7 +78,7 @@
     <!--FOOTER WITH OPEN BLOCK FIELD-->
 		<div class="before footer" ></div>
     <footer id="footer" class="row">
-      <squarespace:block-field id="footerBlocks" columns="12" />
+      <!--<squarespace:block-field id="footerBlocks" columns="12" />-->
     </footer>
     <div class="after footer" ></div>
 
